@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'rust';
+    src: url('font/rust/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('font/rust/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+ @font-face {
+     font-family: 'acherus_grotesque_-_regular';
+     src: url('font/archerusgrotesque/acherus_grotesque_-_regular-webfont.woff2') format('woff2'),
+          url('front/archerusgrotesque/acherus_grotesque_-_regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+body
+{
+padding-left: 100px;
+padding-right: 100px;
+font-family: 'acherus_grotesque_-_regular', Arial, serif;
+font-size: 1.2em;
+background-image: url("fond_chat.jpg");
+background-attachment: fixed;
+}
+.intro
+{
+font-size: 2em;
+font-weight : bold;
+font-style:italic;
+text-align: center;
+color: rgb(97,47,4);
+}
+.signature
+{
+font-size: 2em;
+font-weight : bold;
+text-align: right;
+color: rgb(97,47,4);
+}
+h1
+{
+font-size: 5em;
+font-family: 'rust', Arial, serif;
+color: rgb(204,108,24);
+text-align: center;
+text-shadow : 10px 10px 15px rgb(77,46,5);
+}
+h2
+{
+font-size: 1.7em;
+text-decoration:underline;
+color: rgb(97,47,4);
+}
+strong
+{
+font-weight: bold;
+}
+a:hover
+{
+font-weight : bold;
+}
+
+#bloc_page
+{
+    
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+section
+{
+    background-color : rgba(255,255,255,0.3);
+    border: 5px rgb(97,47,4) ridge;
+    display: flex;
+    justify-content: space-between;
+}
+.element
+{
+    flex: 1;
+}
+#sidebar
+{
+    background-color: grey;
+    width: 10%;
+}
